@@ -56,6 +56,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-image: url("../img/fond.jpg");
+}
+main{
+    display: flex;
+}
+
+/*=================================ASIDE=======================*/
+aside{
+    width: 30%;
+    background-image: url("../img/fond.jpg");
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    text-shadow: 0px 0px 2px;
+}
+
+a:hover,
+a:active,
+a:focus{
+    color: rgb(165, 41, 41);
+    text-shadow: 0px 0px 5px black;
+}
 
 
 

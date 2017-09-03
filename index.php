@@ -19,15 +19,19 @@
         <![endif]-->
     </head>
     <body>
+        <main>
+            <section>
+                <h1>Le coup du Musée</h1>
 
-        <h1>Le coup du Musée</h1>
+                <p> On est dimanche,tu te sent un peu con, il pleut, le wifi marche toujour pas et t'es potes ne répondent pas au téléphone? Vas faire un tour au musé</p>
 
-        <p> On est dimanche,tu te sent un peu con, il pleut, le wifi marche toujour pas et t'es potes ne répondent pas au téléphone? Vas faire un tour au musé</p>
-
-        <aside>
-            <ul class="listeMusee">   
-                            
-            </ul>
-        </aside>              
+                <div class="details"></div>
+            </section>
+            <aside>
+                <ul class="listeMusee">   
+                                
+                </ul>
+            </aside>  
+        </main>            
     </body>
 </html>
