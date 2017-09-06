@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Indie+Flower" rel="stylesheet">         
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -23,14 +24,19 @@
             <section>
                 <h1>Le coup du Musée</h1>
 
-                <p> On est dimanche,tu te sent un peu con, il pleut, le wifi marche toujour pas et t'es potes ne répondent pas au téléphone? Vas faire un tour au musé</p>
+                <span> On est dimanche</span>
+                <span>Tu te sens un peu con,</span>
+                <span>Il pleut,</span>
+                <span>Le wifi marche toujour pas</span>
+                <span>T'as pas de potes</span>
+                <span>Vas faire un tour au musé</span>                
 
                 <div class="details"></div>
-            </section>
-            <aside>
-                <ul class="listeMusee">   
-                                
-                </ul>
+
+                <div class="map"></div>
+            </section><!--
+            --><aside>
+                <ul class="listeMusee"></ul>
             </aside>  
         </main>            
     </body>
