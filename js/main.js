@@ -43,7 +43,7 @@ $(document).ready(function()
 					data.records[index].fields.cp+" "+
 					data.records[index].fields.ville+
 					"</span><br/>"
-				).fadeTo(1000, 1);
+					);
 
 				//si les coordonées existes on les ajoute dans la div details
 				if(data.records[index].fields.telephone1 !== undefined)
@@ -91,7 +91,7 @@ $(document).ready(function()
 				);
 				console.log(data.records[index].fields.coordonnees_cp);
 			});
-			//$(".details").show(1000, "swing");
+			$(".details").animate({left: "400px"});
 			
 			
 		}

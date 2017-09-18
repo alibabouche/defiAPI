@@ -54,12 +54,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+@keyframes translation{
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
 body{
     /*background-image: url("../img/fond.jpg");*/
     background-image: linear-gradient(rgb(142, 7, 84), rgb(152, 17, 94));
     height: 100vh;
 }
+
 main{
     background-color: rgba(255, 255, 255, 0);
     display: flex;
@@ -69,7 +77,6 @@ main{
 section{
     width: 70%;
     overflow-y: scroll;
-    /*height: 100vh;*/
 }
 
 h1{
@@ -79,25 +86,23 @@ h1{
     color: rgb(242, 230, 237);
 }
 
-iframe{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 20em;
+.span1,
+.span2,
+.span3,
+.span4,
+.span5{
+   transform: translateX(-200px);
+   display: inline-block;
 }
-p{
-    background-color: rgba(145, 36, 173, 1);
-    text-align: center;
-    margin: 1em;
-    padding: 1em 1.5em;
-    line-height: 1.7em;
+
+.span1{
+    animation: translation 1s ease;
 }
 .details{    
     padding: 0 3em;
 }
 
 .details h3{
-    /*background-color: rgba(233, 83, 250, 1);*/
     color: rgb(242, 230, 237);
     font-family: "Indie Flower", "Times New Roman", Arial;
     font-size: 2em;
@@ -123,10 +128,27 @@ a:focus{
     color: rgb(0,0,0);
 }
 
+iframe{
+    display: block;
+    margin-top: 5em ;
+    width: 100%;
+    height: 20em;
+}
+
 /*=================================ASIDE=======================*/
+@keyframes apparition {
+    0%{
+        color: rgb(193, 193, 193);
+    }
+    100%{
+
+    color: rgba(81, 7, 91, 1);
+    }
+
+}
 aside{
     width: 30%;
-    background-color: rgb(249, 199, 255);
+    background-color: rgb(152, 46, 173);
     overflow-y: scroll;
     overflow-x: hidden;
     /*height: 100vh;*/
@@ -142,14 +164,14 @@ li, ul{
 
 aside ul li a{
     text-decoration: none;
-    color: rgba(17, 17, 17, 1);
+    color: rgb(193, 193, 193);
     font-family: "Indie Flower", "Times New Roman", Arial;
 }
 
 aside ul li a:hover,
 aside ul li a:active,
 aside ul li a:focus{    
-    color: rgba(81, 7, 91, 1);
+    animation: apparition 0.3s;
 }
 
 

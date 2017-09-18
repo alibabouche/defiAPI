@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="FR">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
-        <meta name="description" content="">
+        <meta name="description" content="Un site à l'image d'un exercie d'école pour trouver une manière instructive de s'occuper. Voici une petite liste des musées de France">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Indie+Flower" rel="stylesheet">         
@@ -23,14 +23,13 @@
         <main>
             <section>
                 <h1>Le coup du Musée</h1>
-
-                <span> On est dimanche</span>
-                <span>Tu te sens un peu con,</span>
-                <span>Il pleut,</span>
-                <span>Le wifi marche toujour pas</span>
-                <span>T'as pas de potes</span>
-                <span>Vas faire un tour au musé</span>                
-
+                <div class="slider">
+                    <span class="span1">On est dimanche</span><br/>
+                    <span class="span2">Tu te sens un peu con</span><br/>
+                    <span class="span3">Il pleut</span><br/>
+                    <span class="span4">T'as pas de potes</span><br/>
+                    <span class="span5">Vas faire un tour au musée</span>                
+                </div>
                 <div class="details"></div>
 
                 <div class="map"></div>
